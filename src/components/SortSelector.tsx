@@ -1,4 +1,5 @@
 import { Button, Menu, Portal } from "@chakra-ui/react";
+import { BsChevronCompactDown } from "react-icons/bs";
 
 interface Props {
   onSelectSortOrder: (sortOrder: string) => void;
