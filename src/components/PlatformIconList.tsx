@@ -36,7 +36,7 @@ const PlatformIconList = ({ platforms }: Props) => {
         const IconComponent = iconMap[platform.slug];
         return (
           IconComponent && (
-            <Icon key={platform.name} as={IconComponent} color="gray.500" />
+            <Icon key={platform.id} as={IconComponent} color="gray.500" />
           )
         );
       })}
